@@ -1,3 +1,4 @@
+<img src="imam.png">
 <h1 align="center">Hi 👋, I'm Imam Hossen</h1>
 <h3 align="center">👋 Hi there! I'm a second-year Computer Science and Engineering student passionate about technology and software development. 🌟 Interests: Software Development Machine Learning Data Science Web Development</h3>
 
