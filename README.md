@@ -10,7 +10,7 @@
 
 - 👯 I’m looking to collaborate on **github**
 
-- 👨‍💻 All of my projects are available at [https://imamhossenbu.github.io/web-portfolio/](https://imamhossenbu.github.io/web-portfolio/)
+- 👨‍💻 All of my projects are available at [https://github.com/imamhossenbu]
 
 - 💬 Ask me about **Web Development**
 
