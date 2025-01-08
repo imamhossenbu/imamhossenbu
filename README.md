@@ -1,5 +1,6 @@
 <img src="imam.png">
 <h1 align="center">Hi 👋, I'm Imam Hossen</h1>
+<h3 align="center">I am a Front End Web Developer </h3>
 <h3 align="center">👋 Hi there! I'm a second-year Computer Science and Engineering student passionate about technology and software development. 🌟 Interests: Software Development Machine Learning Data Science Web Development</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=imamhossenbu&label=Profile%20views&color=0e75b6&style=flat" alt="imamhossenbu" /> </p>
