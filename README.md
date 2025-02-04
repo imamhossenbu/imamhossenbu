@@ -11,7 +11,7 @@
 
 - 👯 I’m looking to collaborate on **github**
 
-- 👨‍💻 All of my projects are available at [[https://github.com/imamhossenbu](https://imamhossenbu.netlify.app/)]
+- 👨‍💻 All of my projects are available at [(https://imamhossenbu.netlify.app/)]
 
 - 💬 Ask me about **Web Development**
 
