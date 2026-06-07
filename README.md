@@ -113,23 +113,11 @@ Username: imamhossenbu
 Location: Bangladesh 🇧🇩
 Role: Full Stack Developer
 Stack: Next.js · Node.js · TypeScript · PostgreSQL
+Portfolio  : https://imamhossen-portfolio.netlify.app
 Passion: Clean, scalable & impactful code
 Mindset: Continuous learner | Detail-oriented
 Status: Open to exciting opportunities 🚀
 ```
-
----
-
-## 🌐 My Portfolio
-<div align="center">
-
-### 🚀 Check out my latest work
-[**Visit my Portfolio Website**](https://imam-portfolio-eight.vercel.app/)
-
-<br>
-<i>"I build projects that solve real-world problems. Feel free to explore my latest work!"</i>
-
-</div>
 
 - 🔭 Currently building exciting **full stack projects**
 - 🌱 Constantly exploring new technologies and best practices
