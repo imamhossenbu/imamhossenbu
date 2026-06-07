@@ -224,12 +224,10 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-##  Contribution Streak
+## 📈 GitHub Streak
 
 <div align="center">
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=imamhossenbu&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
+  <img src="https://streak-stats.demolab.com?user=imamhossenbu&theme=tokyonight-duo&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&sideNums=ffffff&currStreakNum=ffffff" alt="GitHub Streak" />
 </div>
 
 ---
