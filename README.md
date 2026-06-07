@@ -222,14 +222,6 @@ Status: Open to exciting opportunities 🚀
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Imam%20Hossen's%20Contribution%20Graph" />
 </div>
 
----
-
-## 📈 GitHub Streak
-
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=My%20Contribution%20Activity" />
-</div>
 
 ---
 
