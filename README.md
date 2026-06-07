@@ -83,25 +83,25 @@
 
 
 
-<!-- ANIMATED MATRIX BANNER -->
+<!-- PARTICLE DOT ANIMATED BANNER -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Imam%20Hossen&fontSize=65&fontColor=58a6ff&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20Code%20Craftsman&descAlignY=62&descSize=20&animation=fadeIn&stroke=58a6ff&strokeWidth=1" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,30:0f2027,70:1a3a5c,100:0d1117&height=200&section=header&text=Imam%20Hossen&fontSize=62&fontColor=58a6ff&fontAlignY=45&desc=Full%20Stack%20Developer%20%7C%20Code%20Craftsman&descAlignY=65&descSize=18&animation=blinking&stroke=58a6ff&strokeWidth=2" />
 </div>
 
-<!-- MATRIX RAIN via animated SVG -->
+<!-- SMALL DOTS PARTICLE ROW -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=1&pause=99999&color=00FF41&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=40&lines=01001001+01001101+01000001+01001101+00100000+01001000+01001111+01010011+01010011+01000101+01001110" alt="matrix" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=10&duration=2000&pause=500&color=58a6ff&center=true&vCenter=true&multiline=false&width=900&height=20&lines=·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·" />
 </div>
 
 <div align="center">
 
 <!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+elegant+%26+scalable+solutions;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+elegant+%26+scalable+solutions;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- Profile Photo Circular -->
-<img src="./imam.png" width="150" style="border-radius:50%" alt="Imam Hossen" />
+<!-- Circular Profile Photo -->
+<img src="https://avatars.githubusercontent.com/u/imamhossenbu" width="140" style="border-radius:50%;border:3px solid #58a6ff;" alt="Imam Hossen" />
 
 <br/><br/>
 
@@ -120,7 +120,7 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" src="./assets/profile.jpg" width="160" style="border-radius: 50%; margin-left: 20px;" alt="Imam Hossen" />
+<img align="right" src="https://avatars.githubusercontent.com/imamhossenbu" width="150" style="border-radius: 50%;" alt="Imam Hossen" />
 
 ```yaml
 Name       : Imam Hossen
@@ -170,13 +170,18 @@ Status     : Open to exciting opportunities 🚀
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=imamhossenbu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imamhossenbu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+<!-- Using anuraghazra stats (most reliable) -->
+<a href="https://github.com/imamhossenbu">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imamhossenbu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true&cache_seconds=1800" />
+</a>
+<a href="https://github.com/imamhossenbu">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imamhossenbu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
+</a>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=imamhossenbu&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9" />
+<!-- Streak Stats - demolab (reliable) -->
+<img src="https://streak-stats.demolab.com?user=imamhossenbu&theme=tokyonight-duo&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&sideNums=ffffff&currStreakNum=ffffff" />
 
 </div>
 
@@ -185,7 +190,10 @@ Status     : Open to exciting opportunities 🚀
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B" />
+
+<!-- Split into two rows for reliability -->
+<img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" />
+
 </div>
 
 ---
@@ -193,7 +201,7 @@ Status     : Open to exciting opportunities 🚀
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&area_color=1a3a5c" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" />
 </div>
 
 ---
@@ -222,20 +230,21 @@ Status     : Open to exciting opportunities 🚀
 
 ---
 
-<!-- Snake Contribution Animation -->
+<!-- Snake Animation -->
 <div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
 </picture>
-
 </div>
 
----
+<!-- SMALL DOTS PARTICLE ROW -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=10&duration=2000&pause=500&color=58a6ff&center=true&vCenter=true&width=900&height=20&lines=·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·" />
+</div>
 
-<!-- Footer -->
+<!-- Footer Wave -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=fadeIn" />
 
