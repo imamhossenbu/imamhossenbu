@@ -88,9 +88,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Next.js+%7C+Node.js+%7C+TypeScript;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
 
-<br/><br/>
-
-<img src="./assets/profile.png" width="150" style="border-radius:50%;" alt="Imam Hossen" />
 
 <br/><br/>
 
@@ -108,7 +105,7 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" src="./assets/profile.png" width="155" style="border-radius:50%;" alt="Imam Hossen" />
+
 
 ```yaml
 Name: Imam Hossen
@@ -120,6 +117,19 @@ Passion: Clean, scalable & impactful code
 Mindset: Continuous learner | Detail-oriented
 Status: Open to exciting opportunities 🚀
 ```
+
+---
+
+## 🌐 My Portfolio
+<div align="center">
+
+### 🚀 Check out my latest work
+[**Visit my Portfolio Website**](https://imam-portfolio-eight.vercel.app/)
+
+<br>
+<i>"I build projects that solve real-world problems. Feel free to explore my latest work!"</i>
+
+</div>
 
 - 🔭 Currently building exciting **full stack projects**
 - 🌱 Constantly exploring new technologies and best practices
