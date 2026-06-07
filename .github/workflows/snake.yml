@@ -11,18 +11,26 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake SVG
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: imamhossenbu
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push Snake to Output Branch
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy Snake to Output Branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: output
-          folder: dist
-          clean: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "chore: update snake animation [skip ci]"

@@ -15,7 +15,7 @@
 <h2 align="left">About me</h2>
 
 <h4 align="left">
-  👋 Hi there! I'm a second-year Computer Science and Engineering student passionate about technology and software development.  
+  👋 Hi there! I'm a second-year Computer Science and Engineering student passionate about technology and software development.
   <br>🌟 Interests: Software Development • Machine Learning • Data Science • Web Development
 </h4>
 
@@ -25,7 +25,7 @@
   🔭 I’m currently working on student projects <br><br>
   🌱 I’m currently learning Next.js <br><br>
   👯 I’m looking to collaborate on GitHub <br><br>
-  👨‍💻 All of my projects are available at 
+  👨‍💻 All of my projects are available at
   <a href="https://imam-portfolio-eight.vercel.app/" target="_blank">imam-portfolio-eight.vercel.app</a><br><br>
   💬 Ask me about Web Development <br><br>
   📫 How to reach me: imam62310@gmail.com
@@ -79,8 +79,6 @@
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=imamhossenbu" alt="GitHub Streak" />
 </p> -->
 
-
-
 <!-- ANIMATED PARTICLE BANNER -->
 <div align="center">
   <img width="100%" src="./assets/banner.svg" alt="Imam Hossen Banner" />
@@ -92,6 +90,9 @@
 
 <br/><br/>
 
+<img src="./assets/profile.png" width="150" style="border-radius:50%;" alt="Imam Hossen" />
+
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=imamhossenbu&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" />
 &nbsp;
@@ -107,15 +108,17 @@
 
 ## 🧑‍💻 About Me
 
+<img align="right" src="./assets/profile.png" width="155" style="border-radius:50%;" alt="Imam Hossen" />
+
 ```yaml
-Name       : Imam Hossen
-Username   : imamhossenbu
-Location   : Bangladesh 🇧🇩
-Role       : Full Stack Developer
-Stack      : Next.js · Node.js · TypeScript · PostgreSQL
-Passion    : Clean, scalable & impactful code
-Mindset    : Continuous learner | Detail-oriented
-Status     : Open to exciting opportunities 🚀
+Name: Imam Hossen
+Username: imamhossenbu
+Location: Bangladesh 🇧🇩
+Role: Full Stack Developer
+Stack: Next.js · Node.js · TypeScript · PostgreSQL
+Passion: Clean, scalable & impactful code
+Mindset: Continuous learner | Detail-oriented
+Status: Open to exciting opportunities 🚀
 ```
 
 - 🔭 Currently building exciting **full stack projects**
@@ -131,6 +134,7 @@ Status     : Open to exciting opportunities 🚀
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend
+
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind&theme=dark" />
   <img src="https://skillicons.dev/icons?i=framermotion&theme=dark" />
@@ -138,6 +142,7 @@ Status     : Open to exciting opportunities 🚀
 </p>
 
 ### ⚙️ Backend
+
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,firebase&theme=dark" />
   &nbsp;<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
@@ -145,16 +150,19 @@ Status     : Open to exciting opportunities 🚀
 </p>
 
 ### 💻 Programming Languages
+
 <p>
   <img src="https://skillicons.dev/icons?i=py,java,php,c,cpp,js,ts&theme=dark" />
 </p>
 
 ### 🗄️ Database, Cache & ORM
+
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis,prisma&theme=dark" />
 </p>
 
 ### 🤖 Data & AI Tools
+
 <p>
   <img src="https://skillicons.dev/icons?i=py&theme=dark" />
   &nbsp;<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -163,6 +171,7 @@ Status     : Open to exciting opportunities 🚀
 </p>
 
 ### 🧪 Testing & Quality
+
 <p>
   <img src="https://skillicons.dev/icons?i=jest&theme=dark" />
   &nbsp;<img src="https://img.shields.io/badge/Testing%20Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" />
@@ -170,11 +179,13 @@ Status     : Open to exciting opportunities 🚀
 </p>
 
 ### 🚀 DevOps & Tools
+
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel,figma&theme=dark" />
 </p>
 
 ### 📝 CMS
+
 <p>
   <img src="https://skillicons.dev/icons?i=wordpress&theme=dark" />
 </p>
@@ -198,10 +209,9 @@ Status     : Open to exciting opportunities 🚀
 ---
 
 ## 🏆 GitHub Trophies
-## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4&rank=-UNKNOWN" />
 </div>
 
 ---
