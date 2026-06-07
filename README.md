@@ -101,7 +101,7 @@
 <br/><br/>
 
 <!-- Profile Photo Circular -->
-<img src="./assets/profile.jpg" width="150" style="border-radius:50%" alt="Imam Hossen" />
+<img src="./imam.png" width="150" style="border-radius:50%" alt="Imam Hossen" />
 
 <br/><br/>
 
