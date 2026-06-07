@@ -82,26 +82,20 @@
 
 
 
-
-<!-- PARTICLE DOT ANIMATED BANNER -->
+<!-- ===================== ANIMATED PARTICLE BANNER (SVG hosted in repo) ===================== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,30:0f2027,70:1a3a5c,100:0d1117&height=200&section=header&text=Imam%20Hossen&fontSize=62&fontColor=58a6ff&fontAlignY=45&desc=Full%20Stack%20Developer%20%7C%20Code%20Craftsman&descAlignY=65&descSize=18&animation=blinking&stroke=58a6ff&strokeWidth=2" />
-</div>
-
-<!-- SMALL DOTS PARTICLE ROW -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=10&duration=2000&pause=500&color=58a6ff&center=true&vCenter=true&multiline=false&width=900&height=20&lines=·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·" />
+  <img width="100%" src="./assets/banner.svg" alt="Imam Hossen Banner" />
 </div>
 
 <div align="center">
 
-<!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+elegant+%26+scalable+solutions;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<!-- Typing animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+elegant+%26+scalable+solutions+%F0%9F%92%BB;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- Circular Profile Photo -->
-<img src="https://avatars.githubusercontent.com/u/imamhossenbu" width="140" style="border-radius:50%;border:3px solid #58a6ff;" alt="Imam Hossen" />
+<!-- Circular profile photo from repo -->
+<img src="./assets/profile.png" width="150" style="border-radius:50%;" alt="Imam Hossen" />
 
 <br/><br/>
 
@@ -112,7 +106,7 @@
   <img src="https://img.shields.io/github/followers/imamhossenbu?style=for-the-badge&color=0e75b6&labelColor=1a1a2e&label=FOLLOWERS" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20To%20Work-Yes-brightgreen?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/Open%20To%20Work-✅%20Yes-2ea44f?style=for-the-badge" />
 
 </div>
 
@@ -120,7 +114,7 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" src="https://avatars.githubusercontent.com/imamhossenbu" width="150" style="border-radius: 50%;" alt="Imam Hossen" />
+<img align="right" src="./assets/profile.png" width="155" style="border-radius:50%;" alt="Imam Hossen" />
 
 ```yaml
 Name       : Imam Hossen
@@ -133,10 +127,10 @@ Status     : Open to exciting opportunities 🚀
 ```
 
 - 🔭 Currently building exciting **full stack projects**
-- 🌱 Constantly exploring new tech and best practices
-- 💡 Love turning complex problems into simple solutions
-- 🤝 Open to collaborating on meaningful open-source work
-- 📫 Reach me via the links below!
+- 🌱 Constantly exploring new technologies and best practices
+- 💡 Love turning complex problems into simple, elegant solutions
+- 🤝 Open to collaborating on meaningful open-source projects
+- 📫 Reach me via the connect links below!
 
 <br clear="right"/>
 
@@ -170,17 +164,14 @@ Status     : Open to exciting opportunities 🚀
 
 <div align="center">
 
-<!-- Using anuraghazra stats (most reliable) -->
-<a href="https://github.com/imamhossenbu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imamhossenbu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true&cache_seconds=1800" />
-</a>
-<a href="https://github.com/imamhossenbu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imamhossenbu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
-</a>
+<!-- Stats & Languages — using github-stats-extended (reliable fork) -->
+<img height="180em" src="https://github-stats-extended.vercel.app/api?username=imamhossenbu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+&nbsp;
+<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=imamhossenbu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
 
 <br/><br/>
 
-<!-- Streak Stats - demolab (reliable) -->
+<!-- Streak — demolab (most reliable streak service) -->
 <img src="https://streak-stats.demolab.com?user=imamhossenbu&theme=tokyonight-duo&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&sideNums=ffffff&currStreakNum=ffffff" />
 
 </div>
@@ -190,18 +181,30 @@ Status     : Open to exciting opportunities 🚀
 ## 🏆 GitHub Trophies
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" />
+</div>
 
-<!-- Split into two rows for reliability -->
-<img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" />
+---
+
+## 📅 Contribution History
+
+<div align="center">
+
+<!-- Last year's contribution calendar -->
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Imam%20Hossen's%20Contribution%20Graph" />
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 🐍 Contribution Snake
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 </div>
 
 ---
@@ -222,35 +225,18 @@ Status     : Open to exciting opportunities 🚀
   <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://twitter.com/imamhossenbu">
-  <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+<a href="https://facebook.com/imamhossenbu">
+  <img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
 </a>
 
 </div>
 
 ---
 
-<!-- Snake Animation -->
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-</div>
-
-<!-- SMALL DOTS PARTICLE ROW -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=10&duration=2000&pause=500&color=58a6ff&center=true&vCenter=true&width=900&height=20&lines=·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·+·" />
-</div>
-
-<!-- Footer Wave -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=fadeIn" />
-
+  <br/>
   <i>"Code is not just syntax — it's a craft, a conversation, and a commitment."</i>
-
   <br/><br/>
-
   ⭐️ <b>If you find my work useful, consider starring my repos — it means a lot!</b>
 </div>
