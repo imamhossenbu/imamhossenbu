@@ -81,25 +81,18 @@
 
 
 
-
-<!-- ===================== ANIMATED PARTICLE BANNER (SVG hosted in repo) ===================== -->
+<!-- ANIMATED PARTICLE BANNER -->
 <div align="center">
   <img width="100%" src="./assets/banner.svg" alt="Imam Hossen Banner" />
 </div>
 
 <div align="center">
 
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Building+elegant+%26+scalable+solutions+%F0%9F%92%BB;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Imam+Hossen+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Next.js+%7C+Node.js+%7C+TypeScript;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- Circular profile photo from repo -->
-<img src="./assets/profile.png" width="150" style="border-radius:50%;" alt="Imam Hossen" />
 
-<br/><br/>
-
-<!-- Badges -->
 <img src="https://komarev.com/ghpvc/?username=imamhossenbu&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" />
 &nbsp;
 <a href="https://github.com/imamhossenbu?tab=followers">
@@ -114,13 +107,12 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" src="./assets/profile.png" width="155" style="border-radius:50%;" alt="Imam Hossen" />
-
 ```yaml
 Name       : Imam Hossen
 Username   : imamhossenbu
 Location   : Bangladesh 🇧🇩
 Role       : Full Stack Developer
+Stack      : Next.js · Node.js · TypeScript · PostgreSQL
 Passion    : Clean, scalable & impactful code
 Mindset    : Continuous learner | Detail-oriented
 Status     : Open to exciting opportunities 🚀
@@ -138,24 +130,53 @@ Status     : Open to exciting opportunities 🚀
 
 ## 🛠️ Tech Stack
 
-### 💻 Languages
+### 🎨 Frontend
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,html,css,cpp&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=framermotion&theme=dark" />
+  &nbsp;<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
 </p>
 
-### 🚀 Frameworks & Libraries
+### ⚙️ Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,django,tailwind,bootstrap&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,firebase&theme=dark" />
+  &nbsp;<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  &nbsp;<img src="https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
-### 🗄️ Databases & Cloud
+### 💻 Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,firebase,redis,supabase&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,java,php,c,cpp,js,ts&theme=dark" />
 </p>
 
-### ⚙️ DevOps & Tools
+### 🗄️ Database, Cache & ORM
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux,postman,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis,prisma&theme=dark" />
+</p>
+
+### 🤖 Data & AI Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=py&theme=dark" />
+  &nbsp;<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  &nbsp;<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" />
+  &nbsp;<img src="https://img.shields.io/badge/Generative%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
+
+### 🧪 Testing & Quality
+<p>
+  <img src="https://skillicons.dev/icons?i=jest&theme=dark" />
+  &nbsp;<img src="https://img.shields.io/badge/Testing%20Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" />
+  &nbsp;<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
+</p>
+
+### 🚀 DevOps & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel,figma&theme=dark" />
+</p>
+
+### 📝 CMS
+<p>
+  <img src="https://skillicons.dev/icons?i=wordpress&theme=dark" />
 </p>
 
 ---
@@ -164,14 +185,12 @@ Status     : Open to exciting opportunities 🚀
 
 <div align="center">
 
-<!-- Stats & Languages — using github-stats-extended (reliable fork) -->
 <img height="180em" src="https://github-stats-extended.vercel.app/api?username=imamhossenbu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
 &nbsp;
 <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=imamhossenbu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
 
 <br/><br/>
 
-<!-- Streak — demolab (most reliable streak service) -->
 <img src="https://streak-stats.demolab.com?user=imamhossenbu&theme=tokyonight-duo&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&sideNums=ffffff&currStreakNum=ffffff" />
 
 </div>
@@ -181,18 +200,15 @@ Status     : Open to exciting opportunities 🚀
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" />
+ [![Trophy](https://github-profile-trophy.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
 
 ---
 
-## 📅 Contribution History
+## 📅 Contribution Graph
 
 <div align="center">
-
-<!-- Last year's contribution calendar -->
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Imam%20Hossen's%20Contribution%20Graph" />
-
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Imam%20Hossen's%20Contribution%20Graph" />
 </div>
 
 ---
