@@ -224,12 +224,12 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 🐍 Contribution Streak
+##  Contribution Streak
 
 <div align="center">
 <p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=imamhossenbu" alt="GitHub Streak" />
-</p> 
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=imamhossenbu&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+</p>
 </div>
 
 ---
