@@ -224,14 +224,12 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Streak
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/imamhossenbu/imamhossenbu/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<p>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=imamhossenbu" alt="GitHub Streak" />
+</p> 
 </div>
 
 ---
