@@ -135,7 +135,6 @@ Status: Open to exciting opportunities 🚀
 
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=framermotion&theme=dark" />
   &nbsp;<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
 </p>
 
