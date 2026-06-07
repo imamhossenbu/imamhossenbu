@@ -1,27 +1,27 @@
-name: 🐍 Generate Contribution Snake
-
-
-#comment 
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:        # allows manual trigger from Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # এটি খুব গুরুত্বপূর্ণ, এটি গিটহাবকে ফাইল লেখার পারমিশন দেবে
     steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v4 # V4 ব্যবহার করা ভালো
+
+      - uses: Platane/snk@v3
         with:
-          github_user_name: imamhossenbu
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4 # v4 এ আপডেট করা হলো
         with:
           target_branch: output
           build_dir: dist
