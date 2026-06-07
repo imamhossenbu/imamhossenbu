@@ -105,19 +105,15 @@
 
 ## 🧑‍💻 About Me
 
-
-
-```yaml
-Name: Imam Hossen
-Username: imamhossenbu
-Location: Bangladesh 🇧🇩
-Role: Full Stack Developer
-Stack: Next.js · Node.js · TypeScript · PostgreSQL
-Portfolio  : https://imamhossen-portfolio.netlify.app
-Passion: Clean, scalable & impactful code
-Mindset: Continuous learner | Detail-oriented
-Status: Open to exciting opportunities 🚀
-```
+- **Name**       : Imam Hossen
+- **Username**   : [imamhossenbu](https://github.com/imamhossenbu)
+- **Location**   : Bangladesh 🇧🇩
+- **Role**       : Full Stack Developer
+- **Stack**      : Next.js · Node.js · TypeScript · PostgreSQL
+- **Portfolio**  : [imamhossen-portfolio.netlify.app](https://imamhossen-portfolio.netlify.app)
+- **Passion**    : Clean, scalable & impactful code
+- **Mindset**    : Continuous learner | Detail-oriented
+- **Status**     : Open to exciting opportunities 🚀
 
 - 🔭 Currently building exciting **full stack projects**
 - 🌱 Constantly exploring new technologies and best practices
