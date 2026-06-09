@@ -113,32 +113,32 @@ Username: imamhossenbu
 Location: Bangladesh 🇧🇩
 Role: Full Stack Developer
 Stack: Next.js · Node.js · TypeScript · PostgreSQL
-Portfolio  : https://imamhossen-portfolio.netlify.app
+Portfolio  : https://imamhossen.vercel.app
 Passion: Clean, scalable & impactful code
 Mindset: Continuous learner | Detail-oriented
 Status: Open to exciting opportunities 🚀
 ```
 
-- 🔭 Currently building exciting **full stack projects**
-- 🌱 Constantly exploring new technologies and best practices
-- 💡 Love turning complex problems into simple, elegant solutions
-- 🤝 Open to collaborating on meaningful open-source projects
-- 📫 Reach me via the connect links below!
+-  Currently building exciting **full stack projects**
+-  Constantly exploring new technologies and best practices
+-  Love turning complex problems into simple, elegant solutions
+-  Open to collaborating on meaningful open-source projects
+-  Reach me via the connect links below!
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 🎨 Frontend
+###  Frontend
 
 <p>
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind&theme=dark" />
   &nbsp;<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
 </p>
 
-### ⚙️ Backend
+###  Backend
 
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,firebase&theme=dark" />
@@ -146,19 +146,19 @@ Status: Open to exciting opportunities 🚀
   &nbsp;<img src="https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
-### 💻 Programming Languages
+###  Programming Languages
 
 <p>
   <img src="https://skillicons.dev/icons?i=py,java,php,c,cpp,js,ts&theme=dark" />
 </p>
 
-### 🗄️ Database, Cache & ORM
+###  Database, Cache & ORM
 
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis,prisma&theme=dark" />
 </p>
 
-### 🤖 Data & AI Tools
+###  Data & AI Tools
 
 <p>
   <img src="https://skillicons.dev/icons?i=py&theme=dark" />
@@ -167,7 +167,7 @@ Status: Open to exciting opportunities 🚀
   &nbsp;<img src="https://img.shields.io/badge/Generative%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
-### 🧪 Testing & Quality
+###  Testing & Quality
 
 <p>
   <img src="https://skillicons.dev/icons?i=jest&theme=dark" />
@@ -175,13 +175,13 @@ Status: Open to exciting opportunities 🚀
   &nbsp;<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
 </p>
 
-### 🚀 DevOps & Tools
+###  DevOps & Tools
 
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel,figma&theme=dark" />
 </p>
 
-### 📝 CMS
+###  CMS
 
 <p>
   <img src="https://skillicons.dev/icons?i=wordpress&theme=dark" />
@@ -189,7 +189,7 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 📊 GitHub Statistics
+##  GitHub Statistics
 
 <div align="center">
 
@@ -205,7 +205,7 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 🏆 GitHub Trophies
+##  GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=imamhossenbu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4&rank=-UNKNOWN" />
@@ -213,7 +213,7 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 📅 Contribution Graph
+##  Contribution Graph
 
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=imamhossenbu&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Imam%20Hossen's%20Contribution%20Graph" />
@@ -222,7 +222,7 @@ Status: Open to exciting opportunities 🚀
 
 ---
 
-## 🤝 Connect With Me
+##  Connect With Me
 
 <div align="center">
 
@@ -251,5 +251,5 @@ Status: Open to exciting opportunities 🚀
   <br/>
   <i>"Code is not just syntax — it's a craft, a conversation, and a commitment."</i>
   <br/><br/>
-  ⭐️ <b>If you find my work useful, consider starring my repos — it means a lot!</b>
+   <b>If you find my work useful, consider starring my repos — it means a lot!</b>
 </div>
