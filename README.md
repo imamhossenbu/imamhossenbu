@@ -8,27 +8,27 @@
 
 ###
 
-<h2 align="center">I am a Front End Web Developer</h2>
+<h2 align="center">I am a Full Stack Developer</h2>
 
 ###
 
 <h2 align="left">About me</h2>
 
 <h4 align="left">
-  👋 Hi there! I'm a second-year Computer Science and Engineering student passionate about technology and software development.
-  <br>🌟 Interests: Software Development • Machine Learning • Data Science • Web Development
+  👋 Hi there! I'm a third-year Computer Science and Engineering student passionate about technology and software development.
+  <br>Interests: Software Development • Machine Learning • Data Science • Web Development
 </h4>
 
 ###
 
 <p align="left">
-  🔭 I’m currently working on student projects <br><br>
-  🌱 I’m currently learning Next.js <br><br>
-  👯 I’m looking to collaborate on GitHub <br><br>
-  👨‍💻 All of my projects are available at
-  <a href="https://imam-portfolio-eight.vercel.app/" target="_blank">imam-portfolio-eight.vercel.app</a><br><br>
-  💬 Ask me about Web Development <br><br>
-  📫 How to reach me: imam62310@gmail.com
+  I’m currently working on student projects <br><br>
+  I’m currently learning Next.js <br><br>
+  I’m looking to collaborate on GitHub <br><br>
+  All of my projects are available at
+  <a href="https://imam-portfolio-eight.vercel.app/" target="_blank">https://imamhossen.vercel.app</a><br><br>
+  Ask me about Web Development <br><br>
+  How to reach me: imam62310@gmail.com
 </p>
 
 ###
