@@ -1,12 +1,12 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 
 <div align="center">
-  <img width="100%" src="./assets/banner.svg" alt="Imam Hossen — Full Stack Developer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=260&section=header&text=Imam%20Hossen&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58&animation=fadeIn" alt="Imam Hossen — Full Stack Developer" />
 </div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Next.js+%7C+Node.js+%7C+TypeScript+%7C+PostgreSQL;Building+clean%2C+scalable+web+applications" alt="Full Stack Developer — Next.js, Node.js, TypeScript, PostgreSQL" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Next.js+%7C+Node.js+%7C+TypeScript+%7C+PostgreSQL;Building+clean%2C+scalable+web+applications;Open+to+new+opportunities" alt="Next.js, Node.js, TypeScript, PostgreSQL — building clean, scalable web applications" />
 
 <br/>
 
@@ -16,7 +16,7 @@
 <a href="https://linkedin.com/in/imamhossenbu">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:imamhossenbu@gmail.com">
+<a href="mailto:imam62310@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
@@ -168,7 +168,7 @@ I'm always happy to talk about new opportunities, collaborations or interesting 
 <a href="https://linkedin.com/in/imamhossenbu">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:imamhossenbu@gmail.com">
+<a href="mailto:imam62310@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://github.com/imamhossenbu">
@@ -183,7 +183,7 @@ I'm always happy to talk about new opportunities, collaborations or interesting 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=fadeIn" alt="" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=120&section=footer&animation=fadeIn" alt="" />
   <br/>
   <i>"Code is not just syntax — it's a craft, a conversation, and a commitment."</i>
   <br/><br/>
