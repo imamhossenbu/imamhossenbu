@@ -38,7 +38,7 @@
 
 <img align="right" width="230" src="./assets/imam.jpeg" alt="Portrait of Imam Hossen" />
 
-I'm **Imam Hossen**, a Full Stack Developer from Bangladesh. I build web applications end to end — from responsive, animated interfaces in **Next.js** and **React** to APIs and real-time services in **Node.js** and **NestJS**, backed by **PostgreSQL** and **MongoDB**.
+I'm **Imam Hossen**, a Full Stack Developer from Bangladesh. I build web applications end to end — from responsive, animated interfaces in **Next.js** and **React** to APIs and real-time services in **Node.js** and **NestJS**, backed by **PostgreSQL** and **MongoDB**. I also build cross-platform mobile apps with **Flutter** and **Dart**.
 
 I care about clean, scalable code and about turning complex problems into simple, maintainable solutions.
 
@@ -58,6 +58,22 @@ I care about clean, scalable code and about turning complex problems into simple
     <td width="170"><b>Frontend</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,gsap&theme=dark" height="40" alt="Next.js, React, TypeScript, JavaScript, Tailwind CSS, GSAP" />
+      <br/>
+      <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Mobile</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark" height="40" alt="Flutter, Dart, Firebase" />
+      <br/>
+      <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+      <img src="https://img.shields.io/badge/Provider-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Provider" />
+      <img src="https://img.shields.io/badge/Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white" alt="Material 3" />
+      <img src="https://img.shields.io/badge/MVVM-5C6BC0?style=flat-square" alt="MVVM" />
+      <img src="https://img.shields.io/badge/SharedPreferences-0175C2?style=flat-square&logo=dart&logoColor=white" alt="SharedPreferences" />
+      <img src="https://img.shields.io/badge/Secure%20Storage-455A64?style=flat-square&logo=letsencrypt&logoColor=white" alt="Secure Storage" />
+      <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="REST API" />
     </td>
   </tr>
   <tr>
@@ -72,7 +88,7 @@ I care about clean, scalable code and about turning complex problems into simple
   <tr>
     <td><b>Languages</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=ts,js,py,java,php,c,cpp&theme=dark" height="40" alt="TypeScript, JavaScript, Python, Java, PHP, C, C++" />
+      <img src="https://skillicons.dev/icons?i=ts,js,py,java,php,c,cpp,dart&theme=dark" height="40" alt="TypeScript, JavaScript, Python, Java, PHP, C, C++, Dart" />
     </td>
   </tr>
   <tr>
