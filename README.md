@@ -13,7 +13,7 @@
 <a href="https://imamhossen.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-imamhossen.vercel.app-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
-<a href="https://linkedin.com/in/imamhossenbu">
+<a href="https://www.linkedin.com/in/imam-hossen-ub/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="mailto:imam62310@gmail.com">
@@ -183,7 +183,7 @@ I'm always happy to talk about new opportunities, collaborations or interesting 
 <a href="https://imamhossen.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
-<a href="https://linkedin.com/in/imamhossenbu">
+<a href="https://www.linkedin.com/in/imam-hossen-ub/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="mailto:imam62310@gmail.com">
@@ -192,7 +192,7 @@ I'm always happy to talk about new opportunities, collaborations or interesting 
 <a href="https://github.com/imamhossenbu">
   <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="https://facebook.com/imamhossenbu">
+<a href="https://www.facebook.com/imamhossainbu">
   <img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
 </a>
 
