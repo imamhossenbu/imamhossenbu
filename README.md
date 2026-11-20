@@ -36,6 +36,8 @@
 
 ## About Me
 
+<img align="right" width="230" src="./assets/imam.jpeg" alt="Portrait of Imam Hossen" />
+
 I'm **Imam Hossen**, a Full Stack Developer from Bangladesh. I build web applications end to end — from responsive, animated interfaces in **Next.js** and **React** to APIs and real-time services in **Node.js** and **NestJS**, backed by **PostgreSQL** and **MongoDB**.
 
 I care about clean, scalable code and about turning complex problems into simple, maintainable solutions.
@@ -45,7 +47,7 @@ I care about clean, scalable code and about turning complex problems into simple
 - **Open to** — full-time roles, freelance work and meaningful open-source collaboration
 - **Portfolio** — [imamhossen.vercel.app](https://imamhossen.vercel.app)
 
-<br/>
+<br clear="right"/>
 
 <!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
 
@@ -182,10 +184,10 @@ I'm always happy to talk about new opportunities, collaborations or interesting 
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 
+<br/>
+
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=120&section=footer&animation=fadeIn" alt="" />
-  <br/>
-  <i>"Code is not just syntax — it's a craft, a conversation, and a commitment."</i>
+  <img width="100%" src="./assets/footer.svg" alt="Code is not just syntax — it's a craft, a conversation, and a commitment. Thanks for visiting." />
   <br/><br/>
   <sub>If you find my work useful, consider starring a repository — it means a lot.</sub>
 </div>
