@@ -1,12 +1,12 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=260&section=header&text=Imam%20Hossen&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58&animation=fadeIn" alt="Imam Hossen — Full Stack Developer" />
+  <img width="100%" src="./assets/banner.svg" alt="Imam Hossen — Full Stack Developer" />
 </div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Next.js+%7C+Node.js+%7C+TypeScript+%7C+PostgreSQL;Building+clean%2C+scalable+web+applications;Open+to+new+opportunities" alt="Next.js, Node.js, TypeScript, PostgreSQL — building clean, scalable web applications" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+clean%2C+scalable+web+applications;Turning+complex+problems+into+simple+solutions;Open+to+new+opportunities" alt="Building clean, scalable web applications" />
 
 <br/>
 

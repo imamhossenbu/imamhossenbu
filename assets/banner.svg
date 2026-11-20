@@ -1,144 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Imam Hossen — Full Stack Developer</title>
+  <desc id="d">Profile banner for Imam Hossen, Full Stack Developer (Next.js, Node.js, TypeScript, PostgreSQL), on an animated circuit-board background.</desc>
   <defs>
     <style>
-      .dot { animation: moveDot var(--dur) var(--delay) linear infinite; }
-
-      @keyframes moveDot {
-        0%   { transform: translate(0px, 0px); opacity: var(--a0); r: var(--r0); }
-        25%  { transform: translate(var(--dx1), var(--dy1)); opacity: var(--a1); }
-        50%  { transform: translate(var(--dx2), var(--dy2)); opacity: var(--a2); r: var(--r1); }
-        75%  { transform: translate(var(--dx3), var(--dy3)); opacity: var(--a1); }
-        100% { transform: translate(0px, 0px); opacity: var(--a0); r: var(--r0); }
+      .pulse { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 9 141; animation: flow 6s linear infinite; }
+      @keyframes flow { from { stroke-dashoffset: 150; } to { stroke-dashoffset: 0; } }
+      .pad { animation: padPulse 3.2s ease-in-out infinite; }
+      @keyframes padPulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      .gl { opacity: 0; animation: floatUp 10s linear infinite; }
+      @keyframes floatUp {
+        0% { opacity: 0; transform: translateY(12px); }
+        25%, 75% { opacity: .42; }
+        100% { opacity: 0; transform: translateY(-20px); }
       }
-
-      @keyframes lineFlash {
-        0%,100% { opacity: 0; }
-        40%, 60% { opacity: 0.22; }
+      .halo { animation: breathe 5s ease-in-out infinite; }
+      @keyframes breathe { 0%, 100% { opacity: .35; } 50% { opacity: .8; } }
+      .caret { animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .scan { animation: scan 9s linear infinite; }
+      @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1260px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .pad, .gl, .halo, .caret, .scan { animation: none; }
+        .gl { opacity: .3; }
       }
-
-      @keyframes titleGlow {
-        0%,100% { filter: drop-shadow(0 0 6px #58a6ff55); }
-        50%      { filter: drop-shadow(0 0 18px #58a6ffaa); }
-      }
-
-      @keyframes subtitlePulse {
-        0%,100% { opacity: 0.7; }
-        50%      { opacity: 1; }
-      }
-
-      @keyframes lineShimmer {
-        0%,100% { opacity: 0.4; }
-        50%      { opacity: 0.9; }
-      }
-
-      .main-title  { animation: titleGlow 3s ease-in-out infinite; }
-      .sub-title   { animation: subtitlePulse 3s 1s ease-in-out infinite; }
-      .acc-line    { animation: lineShimmer 3s ease-in-out infinite; }
-      .conn        { animation: lineFlash var(--cd) var(--co) ease-in-out infinite; }
     </style>
-
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#0d1117"/>
-      <stop offset="40%"  stop-color="#0f2027"/>
-      <stop offset="70%"  stop-color="#1a3a5c"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#090e18"/>
     </linearGradient>
-
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="45%">
-      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a5d6ff"/>
+    </linearGradient>
+    <linearGradient id="scanG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff" stop-opacity=".1"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0d1117" stop-opacity=".96"/><stop offset=".62" stop-color="#0d1117" stop-opacity=".8"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity=".34"/><stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#58a6ff" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="neon" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="300">
+      <feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="300"><feGaussianBlur stdDeviation="11"/></filter>
+    <clipPath id="frame"><rect width="1000" height="300" rx="16"/></clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)"/>
-  <rect width="900" height="200" fill="url(#centerGlow)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <rect class="scan" x="0" y="0" width="260" height="300" fill="url(#scanG)"/>
 
-  <!-- Connector lines between nearby dots (flash in/out) -->
-  <line class="conn" style="--cd:4.2s;--co:0.0s" x1="38"  y1="22"  x2="95"  y2="15"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:5.1s;--co:0.8s" x1="95"  y1="15"  x2="165" y2="30"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:3.8s;--co:1.6s" x1="710" y1="18"  x2="780" y2="25"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:4.5s;--co:0.4s" x1="780" y1="25"  x2="845" y2="12"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:5.8s;--co:2.1s" x1="38"  y1="22"  x2="52"  y2="88"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:4.0s;--co:1.2s" x1="845" y1="12"  x2="878" y2="65"  stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:6.2s;--co:0.6s" x1="52"  y1="88"  x2="140" y2="105" stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:3.5s;--co:2.8s" x1="165" y1="175" x2="255" y2="182" stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:4.8s;--co:1.0s" x1="630" y1="178" x2="710" y2="168" stroke="#58a6ff" stroke-width="0.5" fill="none"/>
-  <line class="conn" style="--cd:5.3s;--co:0.3s" x1="710" y1="168" x2="800" y2="182" stroke="#58a6ff" stroke-width="0.5" fill="none"/>
+    <!-- circuit board -->
+    <g fill="none" stroke="#58a6ff" stroke-opacity=".22" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 20H200L220 40H380"/><path d="M0 50H120L150 80H250"/><path d="M0 110H70L100 140H210L230 160H280"/><path d="M0 190H110L140 220H240"/><path d="M0 250H170L190 270H360"/><path d="M1000 15H780L760 35H620"/><path d="M1000 40H860L830 70H740"/><path d="M1000 100H930L900 130H790L770 150H725"/><path d="M1000 180H900L870 210H760"/><path d="M1000 240H850L820 270H640"/><path d="M150 140V166"/><path d="M60 190V212"/><path d="M300 40V62"/><path d="M850 130V106"/><path d="M940 180V158"/><path d="M700 35V56"/><path d="M110 250V232"/><path d="M900 240V262"/></g>
+    <g filter="url(#neon)"><path class="pulse" d="M0 20H200L220 40H380" pathLength="100" stroke="#58a6ff" style="animation-duration:6.5s;animation-delay:-0.0s"/><path class="pulse" d="M0 50H120L150 80H250" pathLength="100" stroke="#3fb950" style="animation-duration:5.0s;animation-delay:-1.4s"/><path class="pulse" d="M0 110H70L100 140H210L230 160H280" pathLength="100" stroke="#58a6ff" style="animation-duration:5.8s;animation-delay:-0.6s"/><path class="pulse" d="M0 190H110L140 220H240" pathLength="100" stroke="#bc8cff" style="animation-duration:5.2s;animation-delay:-2.3s"/><path class="pulse" d="M0 250H170L190 270H360" pathLength="100" stroke="#58a6ff" style="animation-duration:6.8s;animation-delay:-3.1s"/><path class="pulse" d="M1000 15H780L760 35H620" pathLength="100" stroke="#bc8cff" style="animation-duration:6.6s;animation-delay:-1.0s"/><path class="pulse" d="M1000 40H860L830 70H740" pathLength="100" stroke="#58a6ff" style="animation-duration:5.1s;animation-delay:-2.6s"/><path class="pulse" d="M1000 100H930L900 130H790L770 150H725" pathLength="100" stroke="#3fb950" style="animation-duration:5.9s;animation-delay:-0.2s"/><path class="pulse" d="M1000 180H900L870 210H760" pathLength="100" stroke="#58a6ff" style="animation-duration:5.3s;animation-delay:-3.4s"/><path class="pulse" d="M1000 240H850L820 270H640" pathLength="100" stroke="#58a6ff" style="animation-duration:6.9s;animation-delay:-1.8s"/></g>
+    <g class="pad" style="animation-delay:-0.0s"><circle cx="380" cy="40" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="380" cy="40" r="1.6" fill="#58a6ff"/></g><g class="pad" style="animation-delay:-1.4s"><circle cx="250" cy="80" r="4.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.4"/><circle cx="250" cy="80" r="1.6" fill="#3fb950"/></g><g class="pad" style="animation-delay:-0.6s"><circle cx="280" cy="160" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="280" cy="160" r="1.6" fill="#58a6ff"/></g><g class="pad" style="animation-delay:-2.3s"><circle cx="240" cy="220" r="4.5" fill="#0d1117" stroke="#bc8cff" stroke-width="1.4"/><circle cx="240" cy="220" r="1.6" fill="#bc8cff"/></g><g class="pad" style="animation-delay:-3.1s"><circle cx="360" cy="270" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="360" cy="270" r="1.6" fill="#58a6ff"/></g><g class="pad" style="animation-delay:-1.0s"><circle cx="620" cy="35" r="4.5" fill="#0d1117" stroke="#bc8cff" stroke-width="1.4"/><circle cx="620" cy="35" r="1.6" fill="#bc8cff"/></g><g class="pad" style="animation-delay:-2.6s"><circle cx="740" cy="70" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="740" cy="70" r="1.6" fill="#58a6ff"/></g><g class="pad" style="animation-delay:-0.2s"><circle cx="725" cy="150" r="4.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.4"/><circle cx="725" cy="150" r="1.6" fill="#3fb950"/></g><g class="pad" style="animation-delay:-3.4s"><circle cx="760" cy="210" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="760" cy="210" r="1.6" fill="#58a6ff"/></g><g class="pad" style="animation-delay:-1.8s"><circle cx="640" cy="270" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="1.4"/><circle cx="640" cy="270" r="1.6" fill="#58a6ff"/></g><circle cx="150" cy="166" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="60" cy="212" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="300" cy="62" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="850" cy="106" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="940" cy="158" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="700" cy="56" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="110" cy="232" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/><circle cx="900" cy="262" r="2.6" fill="#0d1117" stroke="#58a6ff" stroke-opacity=".45" stroke-width="1.1"/>
 
-  <!-- Moving dots — each has CSS custom props for motion path and opacity -->
-  <!-- Top edge -->
-  <circle class="dot" style="--dur:9s; --delay:0.0s; --dx1:8px;  --dy1:-4px; --dx2:14px; --dy2:3px;  --dx3:6px;  --dy3:2px;  --a0:0.9; --a1:0.6; --a2:1.0; --r0:2.2; --r1:2.8" cx="38"  cy="22"  r="2.2" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:11s;--delay:1.2s; --dx1:-6px; --dy1:5px;  --dx2:10px; --dy2:-3px; --dx3:-4px; --dy3:6px;  --a0:0.7; --a1:1.0; --a2:0.5; --r0:1.8; --r1:2.3" cx="95"  cy="15"  r="1.8" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:8s; --delay:2.5s; --dx1:5px;  --dy1:6px;  --dx2:-8px; --dy2:2px;  --dx3:3px;  --dy3:-5px; --a0:0.6; --a1:0.9; --a2:0.4; --r0:1.5; --r1:2.0" cx="165" cy="30"  r="1.5" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:13s;--delay:0.7s; --dx1:7px;  --dy1:-6px; --dx2:-5px; --dy2:4px;  --dx3:9px;  --dy3:-2px; --a0:0.8; --a1:0.5; --a2:1.0; --r0:2.0; --r1:2.5" cx="240" cy="18"  r="2.0" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:10s;--delay:3.1s; --dx1:-9px; --dy1:4px;  --dx2:6px;  --dy2:-7px; --dx3:-3px; --dy3:5px;  --a0:0.5; --a1:0.8; --a2:0.3; --r0:1.4; --r1:1.8" cx="330" cy="24"  r="1.4" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:7s; --delay:1.8s; --dx1:4px;  --dy1:7px;  --dx2:-6px; --dy2:-4px; --dx3:8px;  --dy3:3px;  --a0:0.9; --a1:0.6; --a2:1.0; --r0:2.0; --r1:2.6" cx="710" cy="18"  r="2.0" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:12s;--delay:0.4s; --dx1:-7px; --dy1:-5px; --dx2:9px;  --dy2:3px;  --dx3:-4px; --dy3:6px;  --a0:0.7; --a1:1.0; --a2:0.5; --r0:1.7; --r1:2.2" cx="780" cy="25"  r="1.7" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:9s; --delay:2.9s; --dx1:6px;  --dy1:-8px; --dx2:-4px; --dy2:5px;  --dx3:7px;  --dy3:-3px; --a0:1.0; --a1:0.6; --a2:0.8; --r0:2.3; --r1:2.8" cx="845" cy="12"  r="2.3" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:14s;--delay:1.5s; --dx1:5px;  --dy1:4px;  --dx2:-7px; --dy2:-5px; --dx3:3px;  --dy3:6px;  --a0:0.6; --a1:0.4; --a2:0.9; --r0:1.5; --r1:1.9" cx="430" cy="10"  r="1.5" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:8s; --delay:4.0s; --dx1:-5px; --dy1:6px;  --dx2:8px;  --dy2:-3px; --dx3:-6px; --dy3:4px;  --a0:0.8; --a1:1.0; --a2:0.6; --r0:1.9; --r1:2.4" cx="560" cy="20"  r="1.9" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:11s;--delay:0.9s; --dx1:9px;  --dy1:-4px; --dx2:-6px; --dy2:7px;  --dx3:4px;  --dy3:-8px; --a0:0.5; --a1:0.9; --a2:0.3; --r0:1.3; --r1:1.7" cx="640" cy="14"  r="1.3" fill="#2a5c8a"/>
+    <!-- floating code glyphs -->
+    <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#58a6ff"><text class="gl" style="animation-duration:9s;animation-delay:-0s" x="44" y="92">&lt;/&gt;</text><text class="gl" style="animation-duration:11s;animation-delay:-3.5s" x="196" y="122">{ }</text><text class="gl" style="animation-duration:8s;animation-delay:-5.2s" x="40" y="172">=&gt;</text><text class="gl" style="animation-duration:10s;animation-delay:-1.7s" x="268" y="252">01</text><text class="gl" style="animation-duration:12s;animation-delay:-6.1s" x="452" y="290">git</text><text class="gl" style="animation-duration:10s;animation-delay:-2.4s" x="936" y="76">( )</text><text class="gl" style="animation-duration:9s;animation-delay:-4.6s" x="792" y="104">[ ]</text><text class="gl" style="animation-duration:11s;animation-delay:-0.9s" x="944" y="218">&amp;&amp;</text><text class="gl" style="animation-duration:8s;animation-delay:-3.0s" x="716" y="250">//</text><text class="gl" style="animation-duration:12s;animation-delay:-7.3s" x="548" y="26">npm</text><text class="gl" style="animation-duration:10s;animation-delay:-4.0s" x="472" y="22">10</text><text class="gl" style="animation-duration:11s;animation-delay:-2.0s" x="560" y="288">API</text></g>
 
-  <!-- Middle sides -->
-  <circle class="dot" style="--dur:10s;--delay:2.2s; --dx1:6px;  --dy1:8px;  --dx2:-4px; --dy2:-6px; --dx3:7px;  --dy3:3px;  --a0:0.8; --a1:0.5; --a2:1.0; --r0:2.0; --r1:2.5" cx="52"  cy="88"  r="2.0" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:13s;--delay:0.6s; --dx1:-8px; --dy1:5px;  --dx2:6px;  --dy2:-9px; --dx3:-3px; --dy3:7px;  --a0:0.6; --a1:1.0; --a2:0.4; --r0:1.6; --r1:2.1" cx="140" cy="105" r="1.6" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:8s; --delay:3.5s; --dx1:5px;  --dy1:-7px; --dx2:-9px; --dy2:4px;  --dx3:6px;  --dy3:-5px; --a0:0.9; --a1:0.6; --a2:0.8; --r0:1.8; --r1:2.3" cx="878" cy="65"  r="1.8" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:11s;--delay:1.4s; --dx1:-6px; --dy1:8px;  --dx2:7px;  --dy2:-4px; --dx3:-5px; --dy3:6px;  --a0:0.7; --a1:0.4; --a2:0.9; --r0:1.5; --r1:2.0" cx="820" cy="100" r="1.5" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:9s; --delay:2.8s; --dx1:8px;  --dy1:5px;  --dx2:-5px; --dy2:-8px; --dx3:6px;  --dy3:4px;  --a0:0.5; --a1:0.9; --a2:0.6; --r0:1.7; --r1:2.2" cx="22"  cy="130" r="1.7" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:12s;--delay:0.2s; --dx1:-7px; --dy1:-5px; --dx2:9px;  --dy2:6px;  --dx3:-4px; --dy3:-7px; --a0:1.0; --a1:0.6; --a2:0.8; --r0:2.2; --r1:2.7" cx="870" cy="140" r="2.2" fill="#58a6ff"/>
+    <!-- centre -->
+    <ellipse cx="500" cy="160" rx="330" ry="150" fill="url(#core)"/>
+    <ellipse class="halo" cx="500" cy="150" rx="300" ry="95" fill="url(#glow)"/>
 
-  <!-- Bottom edge -->
-  <circle class="dot" style="--dur:10s;--delay:1.0s; --dx1:7px;  --dy1:-5px; --dx2:-5px; --dy2:8px;  --dx3:4px;  --dy3:-6px; --a0:0.8; --a1:0.5; --a2:1.0; --r0:2.0; --r1:2.5" cx="38"  cy="180" r="2.0" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:8s; --delay:2.3s; --dx1:-6px; --dy1:4px;  --dx2:8px;  --dy2:-7px; --dx3:-3px; --dy3:5px;  --a0:0.6; --a1:0.9; --a2:0.4; --r0:1.5; --r1:2.0" cx="165" cy="175" r="1.5" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:13s;--delay:0.5s; --dx1:5px;  --dy1:6px;  --dx2:-7px; --dy2:-4px; --dx3:8px;  --dy3:3px;  --a0:0.9; --a1:0.6; --a2:1.0; --r0:1.9; --r1:2.4" cx="255" cy="182" r="1.9" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:9s; --delay:3.2s; --dx1:-8px; --dy1:-6px; --dx2:6px;  --dy2:7px;  --dx3:-4px; --dy3:-5px; --a0:0.7; --a1:1.0; --a2:0.5; --r0:1.6; --r1:2.1" cx="380" cy="188" r="1.6" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:11s;--delay:1.7s; --dx1:6px;  --dy1:-8px; --dx2:-5px; --dy2:6px;  --dx3:7px;  --dy3:-4px; --a0:1.0; --a1:0.6; --a2:0.8; --r0:2.2; --r1:2.7" cx="480" cy="178" r="2.2" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:7s; --delay:4.1s; --dx1:-5px; --dy1:7px;  --dx2:8px;  --dy2:-5px; --dx3:-6px; --dy3:4px;  --a0:0.6; --a1:0.4; --a2:0.9; --r0:1.4; --r1:1.8" cx="580" cy="185" r="1.4" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:12s;--delay:0.8s; --dx1:7px;  --dy1:5px;  --dx2:-6px; --dy2:-8px; --dx3:5px;  --dy3:6px;  --a0:0.8; --a1:1.0; --a2:0.6; --r0:2.0; --r1:2.5" cx="630" cy="178" r="2.0" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:10s;--delay:2.0s; --dx1:-7px; --dy1:-4px; --dx2:9px;  --dy2:5px;  --dx3:-5px; --dy3:-7px; --a0:0.9; --a1:0.6; --a2:1.0; --r0:1.8; --r1:2.3" cx="710" cy="168" r="1.8" fill="#58a6ff"/>
-  <circle class="dot" style="--dur:8s; --delay:3.6s; --dx1:5px;  --dy1:8px;  --dx2:-8px; --dy2:-5px; --dx3:6px;  --dy3:3px;  --a0:0.7; --a1:0.5; --a2:0.9; --r0:1.6; --r1:2.0" cx="800" cy="182" r="1.6" fill="#2a5c8a"/>
-  <circle class="dot" style="--dur:11s;--delay:1.3s; --dx1:-6px; --dy1:6px;  --dx2:7px;  --dy2:-8px; --dx3:-4px; --dy3:5px;  --a0:1.0; --a1:0.7; --a2:0.8; --r0:2.1; --r1:2.6" cx="875" cy="173" r="2.1" fill="#58a6ff"/>
+    <text x="500" y="92" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#3fb950">$</tspan><tspan fill="#8b949e"> whoami</tspan></text>
+    <text class="halo" x="500" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1" fill="#58a6ff" filter="url(#soft)">Imam Hossen</text>
+    <text x="500" y="164" text-anchor="middle" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1" fill="url(#name)">Imam Hossen</text>
+    <text x="381.2" y="206" textLength="237.6" lengthAdjust="spacing" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="600"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#7ee787">FullStackDeveloper</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
+    <rect class="caret" x="624.8" y="191" width="9" height="18" rx="1" fill="#58a6ff"/>
+    <text x="500" y="242" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#8b949e" letter-spacing=".6">Next.js <tspan fill="#58a6ff" fill-opacity=".6">//</tspan> Node.js <tspan fill="#58a6ff" fill-opacity=".6">//</tspan> TypeScript <tspan fill="#58a6ff" fill-opacity=".6">//</tspan> PostgreSQL</text>
 
-  <!-- Glow halo on 3 brighter dots -->
-  <circle cx="38"  cy="22"  r="7"  fill="url(#dotGlow)" opacity="0.5"/>
-  <circle cx="845" cy="12"  r="7"  fill="url(#dotGlow)" opacity="0.5"/>
-  <circle cx="480" cy="178" r="7"  fill="url(#dotGlow)" opacity="0.5"/>
-
-  <!-- Main text -->
-  <text
-    class="main-title"
-    x="450" y="96"
-    text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-    font-size="50" font-weight="800" letter-spacing="3"
-    fill="#ffffff"
-  >Imam Hossen</text>
-
-  <!-- Accent underline -->
-  <rect class="acc-line" x="275" y="107" width="350" height="2" rx="1" fill="#58a6ff"/>
-
-  <!-- Subtitle -->
-  <text
-    class="sub-title"
-    x="450" y="140"
-    text-anchor="middle"
-    font-family="'Courier New', Courier, monospace"
-    font-size="15" font-weight="400" letter-spacing="2.5"
-    fill="#58a6ff"
-  >Full Stack Developer  |  Code Craftsman</text>
-
-  <!-- Border frame -->
-  <rect x="1" y="1" width="898" height="198" rx="4" fill="none" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.2"/>
-
-  <!-- Corner accent circles -->
-  <circle cx="10" cy="10"   r="2.5" fill="#58a6ff" opacity="0.35"/>
-  <circle cx="890" cy="10"  r="2.5" fill="#58a6ff" opacity="0.35"/>
-  <circle cx="10" cy="190"  r="2.5" fill="#58a6ff" opacity="0.35"/>
-  <circle cx="890" cy="190" r="2.5" fill="#58a6ff" opacity="0.35"/>
+    <rect x=".5" y=".5" width="999" height="299" rx="15.5" fill="none" stroke="#30363d"/>
+  </g>
 </svg>
